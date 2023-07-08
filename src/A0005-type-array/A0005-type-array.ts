@@ -13,3 +13,6 @@ console.log(concatenaString("y", "o", " ", "s", "o", "y", " ", "l", "i", "n", "d
 // readonly - faz com que não seja possivel aterar/adicionar/remover os valores
 const array: readonly string[] = ["a", "b", "c"];
 const array2: ReadonlyArray<number> = [1, 2, 3];
+
+console.log(array);
+console.log(array2);
