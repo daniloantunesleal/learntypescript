@@ -1,9 +1,9 @@
 // Array<T> - T[]
-function multiplicarNumbers(...args: Array<number>): number { // Ao invéz de "Array<number>" também poderia ser utilizado "number[]"
+function multiplicarNumbers(...args: Array<number>): number { // Ao invés de "Array<number>" poderia ser utilizado "number[]"
 	return args.reduce((acc, value) => value * acc, 1);
 }
 
-function concatenaString(...args: string[]): string { // Ao invéz de "string[]" também poderia ser utilizado "Array<strin>"
+function concatenaString(...args: string[]): string { // Ao invés de "string[]" poderia ser utilizado "Array<strin>"
 	return args.join("");
 }
 
