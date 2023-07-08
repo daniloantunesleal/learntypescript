@@ -22,7 +22,7 @@ let pessoa: { nome: string, idade: number, adulto?: boolean } = { // chave? = A 
 }
 
 // Funções
-function soma(x: number, y: number): number{ // O ":" depois dos parametros significa oque a função vai retornar
+function soma(x: number, y: number): number { // O ":" depois dos parametros significa oque a função vai retornar
     return x + y;
 }
 const soma2: (x: number, y: number) => number = (x, y) => x + y; // ATENÇÃO: O valor só vem depois do sinal =, oque está vindo antes é o tipo

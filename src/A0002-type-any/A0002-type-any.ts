@@ -3,4 +3,4 @@
 
 function showMessage(msg: any) { // Aqui msg pode ser qualquer tipo, um number, uma string, qualquer coisa
 	return msg;
-} // Nessa função não foi colocado o ": type" porque o TypeScript infere automaticamente o tipo que será retornado (Passe o  mouse em cima)
+} // Nessa função não foi colocado o ": type" porque o TypeScript infere automaticamente o tipo que será retornado (Passe o mouse em cima)
