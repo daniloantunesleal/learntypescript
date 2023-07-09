@@ -3,7 +3,7 @@ function multiplicarNumbers(...args: Array<number>): number { // Ao invés de "A
 	return args.reduce((acc, value) => value * acc, 1);
 }
 
-function concatenaString(...args: string[]): string { // Ao invés de "string[]" poderia ser utilizado "Array<strin>"
+function concatenaString(...args: string[]): string { // Ao invés de "string[]" poderia ser utilizado "Array<string>"
 	return args.join("");
 }
 

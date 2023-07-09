@@ -4,7 +4,7 @@ const dadosCliente: [number, string] = [1, "Danilo"]; // Isso faz com que meu í
 const dadosCliente2: [number, string, string] = [1, "Danilo", "Leal"];
 const dadosCliente3: [number, string, string?] = [1, "Danilo"]; // Não é necessario adicionar o índice 2 pois ele é opcional
 const dadosCliente4: [number, string, ...string[]] = [1, "Danilo", "Fulano", "Da", "Fila", "Do", "Nikeses"]; // Isso faz com que os indices após o 1 seja todos strings
-const dadosCliente5: readonly [number, string, ...string[]] = [1, "Danilo", "Fulano", "Da", "Fila", "Do", "Nikeses"]; // Readonly faz com que nenhum valor possa sera alterado/adicionado/removido
+const dadosCliente5: readonly [number, string, ...string[]] = [1, "Danilo", "Fulano", "Da", "Fila", "Do", "Nikeses"]; // Readonly faz com que nenhum valor possa ser alterado/adicionado/removido
 
 dadosCliente[0] = 2;
 // dadosCliente[0] = "string"; // Não é possivel fazer isso pois meu índice 0 tem que ser do tipo number

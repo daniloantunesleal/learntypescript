@@ -1,7 +1,7 @@
 const objectA = {
 	chaveA: "Valor A",
 	chaveB: "Valor A"
-}; // Aqui não precisei inferir o tipo pois o próprio TypeScript já inferiu
+}; // Aqui não precisei inferir o tipo pois o próprio TypeScript já inferiu (Passe o mouse em cima)
 
 objectA.chaveA = "adsad";
 // objectA.chaveC = "Novo Valor"; // Não é possivel criar uma nova chaveC pois o TypeScript já inferiu que existe apenas chaveA do tipo string e chaveB do tipo string, e não existe chaveC do tipo string.
